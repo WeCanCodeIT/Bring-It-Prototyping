@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Chewy&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Chewy&display=swap');
+footer{
+    text-align: center;
+    margin-top: 3rem;
+}
+h2 {
+    text-align: center;
+}
 .title {
-    font-style: Chewy, "Sans Serif";
+    font-family: Chewy, "Sans Serif";
     font-size: 2.5rem;
 }
 .icon {
@@ -10,12 +16,15 @@
 }
 .nav-bar {
     display: flex;
+    margin: auto;
     justify-content: space-evenly;
     height: 80px;
     width: 500px;
     background-color: lightblue;
-    margin: 0 auto 0 auto;
+
     border-radius: 13px;
     box-shadow: 5px 5px 10px gray;
 
 }
+
+
