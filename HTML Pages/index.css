@@ -29,15 +29,22 @@
 	height: 100%;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	grid-area: main;
-	display: flex;
+    display: flex;
+    align-content: center;
 	/* grid-area: main;
     grid-template-rows: 50% 50%;
     grid-template-columns: 20% 20% 20% 20% 20% ;
     grid-template-areas: 
     "my-event my-event host host host"
     "attendees attendees assignments assignments assignments"; */
+}
+
+.event-form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .my-event {

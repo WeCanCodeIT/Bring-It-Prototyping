@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Chewy&display=swap');
 
 .event-form__container{
+    justify-content: center;
     display: block;
-    width: 600px;
+    width: 50%;
+    height:100%;
     box-shadow: 5px 5px 10px gray;
     border-radius: 15px;
     /* background-color: rgb(212, 231, 39); */
     background-image: url("../Images/subtle_white_mini_waves.png");
     /* background-image: linear-gradient(rgb(255, 255, 255),rgb(211, 60, 60)); */
-    margin: 2rem auto 0 auto;
-    padding: 2rem;
+    /* margin: 2rem auto 0 auto; */
+    /* padding: 2rem; */
     font-family: Lato, 'Sans Serif';
+    
 }
 
 .input-name{
@@ -24,7 +27,7 @@
     justify-content: center;
     flex-direction: row;
     height: 250px;
-    width: 100%;
+    width: 50%;
     overflow-y: scroll;
     flex-wrap: wrap;
     align-content: stretch;
