@@ -4,7 +4,7 @@
 	height: 100vh;
 
 	grid-template-areas:
-		"head head head head head head"
+		"logo head head head head note"
 		"nav main main main main main"
 		"nav main main main main main "
 		"foot foot foot foot foot foot";
@@ -16,11 +16,17 @@
 
 #page > header {
 	grid-area: head;
+	display:flex;
+	width:100%;
+	/* border: 1px solid black; */
+	/* padding: 1px; */
 	background-color: #8ca0ff;
 }
 
 #page > nav {
 	grid-area: nav;
+	/* border: 1px solid black; */
+	/* padding: 1px; */
 	background-color: #ffa08c;
 }
 
@@ -51,6 +57,9 @@
 	grid-area: my-event;
 	width: 50%;
 	height: 50%;
+	/* border: 1px solid black; */
+	/* padding: 1px; */
+
 	background-color: #7a7a2c;
 }
 
@@ -58,6 +67,9 @@
 	grid-area: host;
 	width: 50%;
 	height: 50%;
+	/* border: 1px solid black; */
+	/* padding: 1px; */
+
 	background-color: #ff64ac;
 }
 
@@ -65,6 +77,9 @@
 	grid-area: attendees;
 	width: 50%;
 	height: 50%;
+	/* border: 1px solid black; */
+	/* padding: 1px; */
+
 	background-color: #ffff64;
 }
 
@@ -72,10 +87,31 @@
 	grid-area: assignments;
 	width: 50%;
 	height: 50%;
-	background-color: #a89fdb;
+	/* border: 1px solid black; */
+	/* padding: 1px; */
+
+	 background-color: #a89fdb; 
 }
 
 #page > footer {
-    grid-area: foot;
+	grid-area: foot;
+	border: 1px solid black;
+	/* padding: 1px; */
+
+	 background-color: #8cffa0; 
+}
+
+.logo{
+	grid-area: logo;
+	height: 100%;
+	/* display:flex;
+	justify-content: center; */
+	background-color: #8cffa0;
+}
+
+.notification{
+	grid-area: note;
+	/* display:flex;
+	justify-content: center; */
 	background-color: #8cffa0;
 }
